@@ -1,0 +1,54 @@
+%\usepackage{fixltx2e}
+%\usepackage{newtxtext} % Times New Roman font or alike.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[labelsep=endash]{caption} % Use english in captions instead of Russian
+\usepackage{titlesec} % adds dot after section number
+\titlelabel{\thetitle.\quad} % adds dot after section number
+\usepackage{enumitem} % makes enumerated lists (for indentation adjustment)
+\usepackage{indentfirst} % Indent first paragraph
+%\usepackage{wrapfig} % Wrapped figures
+\usepackage[pdftex]{graphicx} % allows to add figures
+\usepackage{subcaption}
+\graphicspath{ {../resources/kanjiimages/} } % figure folder.
+
+\usepackage{amsmath}
+
+\usepackage{amsfonts}
+\usepackage{bigints}
+
+\renewcommand{\baselinestretch}{1.0}   % Update line spacing
+% Margins of the paper
+\usepackage{marginnote} % create notes in the margins with \marginnote{}[3cm]
+\usepackage[marginparwidth=20mm, marginparsep=3mm]{geometry}
+\geometry{a4paper,
+	%total={210mm,297mm}, 
+	left=	10mm,
+	right=	10mm,
+	top=	10mm,
+	bottom=	15mm,
+}
+\usepackage{hyperref}% Adds links to all references.
+\newcommand{\bs}{\textbackslash}
+\usepackage{color}
+\numberwithin{equation}{section}
+\usepackage{physics}
+\usepackage{nicefrac}
+\usepackage{esvect}
+
+% Theorems and Definitions
+\usepackage{amsthm}% for Definitions and something else?
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}[section]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\newtheorem{exercise}{Exercise}[section]
+
+% Math commands
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+
+% Insert a block note
+\usepackage{xcolor}
+\usepackage[framemethod=default]{mdframed}
