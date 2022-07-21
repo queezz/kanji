@@ -1,0 +1,23 @@
+fig,read,mean
+ichi,いち/ichi,1
+ni,に/ni,2
+san,さん/san,3
+yon,し/shi,4
+go,ご/go,5
+roku,ろく/roku,6
+nana,しち/shichi,7
+hachi,はち/hachi,8
+kyu,きゅう/kyu,9
+jyu,じゅう/jyu,10
+hyaku,ひゃく/hyaku,100
+sen,せん/sen,$10^{3}$
+man,いちまん/man,$10^{4}$
+jyu man,じゅうまん,$10^{5}$
+hyaku man,ひゃくまん,$10^{6}$
+sen man,せんまん,$10^{7}$
+oku,おく,$10^{8}$
+jyu oku,じゅう,$10^{9}$
+hyaku oku,ひゃくおく,$10^{10}$
+sen oku,せんおく,$10^{11}$
+choo,ちょう,$10^{12}$
+kei,けい,$10^{16}$

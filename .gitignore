@@ -1,13 +1,5 @@
 .DS_store
-*.code-workspace
 __latexindent_temp.tex
-test.py
-*.pptx
-*.csv
-queleeconvert.ipynb
-quelee_binary.ipynb
-convertquelee.py
-*.pdf
 
 # Microsoft Office
 *.tmp
@@ -23,8 +15,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
